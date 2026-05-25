@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="3; url=https://claudiatoth.github.io/claudia-zimmer/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Lecția s-a mutat — Was ist in Claudias Zimmer? · Claudia Toth</title>
+    <link rel="canonical" href="https://claudiatoth.github.io/claudia-zimmer/">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: #1f2937;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 50px 40px;
+            max-width: 540px;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+        }
+        .symbol {
+            font-size: 4rem;
+            color: #047857;
+            line-height: 1;
+            margin-bottom: 14px;
+        }
+        h1 {
+            color: #065f46;
+            font-size: 1.6rem;
+            margin-bottom: 14px;
+        }
+        p {
+            color: #374151;
+            line-height: 1.6;
+            margin-bottom: 14px;
+            font-size: 1.05rem;
+        }
+        .countdown {
+            color: #047857;
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin: 20px 0;
+        }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: white;
+            padding: 14px 32px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1rem;
+            box-shadow: 0 6px 18px rgba(16, 185, 129, 0.35);
+            transition: all 0.2s;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(16, 185, 129, 0.5);
+        }
+        .footer {
+            margin-top: 24px;
+            font-size: 0.85rem;
+            color: #6b7280;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="symbol">ʚଓ</div>
+        <h1>Lecția s-a mutat!</h1>
+        <p><strong>„Was ist in Claudias Zimmer?"</strong> a fost refacut complet în noul format <em>Annettes Deutschkurs</em>: 13 obiecte cameră + 5 tipare plural + 10 culori + structuri ist/sind + exerciții interactive.</p>
+        <p class="countdown">⏱️ Te redirectionăm automat în <span id="seconds">3</span> secunde…</p>
+        <a class="btn" href="https://claudiatoth.github.io/claudia-zimmer/">Mergi acum la lecția nouă →</a>
+        <p class="footer">Dacă nu se redirectează automat, apasă butonul de mai sus.</p>
+        <p class="footer">ʚଓ Claudia Toth · © 2026 · Annettes Deutschkurs</p>
+    </div>
+    <script>
+        let s = 3;
+        const el = document.getElementById('seconds');
+        setInterval(() => {
+            s--;
+            if (s >= 0 && el) el.textContent = s;
+        }, 1000);
+    </script>
+</body>
+</html>
